@@ -2,6 +2,9 @@
 
 public class Day1
 {
-
+    public static string FirstPart(string filePath)
+    {
+        return "";
+    }
 
 }
