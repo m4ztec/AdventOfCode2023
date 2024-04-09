@@ -1,2 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using AdventOfCode2023.PuzzleSolutions;
+
+var result = Day1.SecondPart("Inputs/InputDay1.txt");
+
+Console.WriteLine(result);
