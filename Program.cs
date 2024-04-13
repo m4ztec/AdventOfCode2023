@@ -1,5 +1,5 @@
 ﻿using AdventOfCode2023.PuzzleSolutions;
 
-var result = Day2.SecondPart("Inputs/InputDay2.txt");
+var result = Day3.SecondPart("Inputs/InputDay3.txt");
 
 Console.WriteLine(result);
