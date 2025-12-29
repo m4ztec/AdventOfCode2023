@@ -11,7 +11,7 @@ public class Day6
             .Select(l =>
                 l.Split(":")
                 .Last()
-                .Split("  ", StringSplitOptions.TrimEntries | StringSplitOptions.RemoveEmptyEntries)
+                .Split(' ', StringSplitOptions.TrimEntries | StringSplitOptions.RemoveEmptyEntries)
                 .Select(long.Parse)
                 .ToArray()
             )
