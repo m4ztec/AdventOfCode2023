@@ -50,7 +50,6 @@ public class Day2
                 ["green"] = 0,
                 ["blue"] = 0,
             };
-            bool shouldCount = false;
             var tmp = match.Split(":");
             var gameId = int.Parse(tmp[0].Split(" ", StringSplitOptions.TrimEntries | StringSplitOptions.RemoveEmptyEntries)[1]);
             var shows = tmp[1].Split([';', ',']);
